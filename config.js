@@ -64,7 +64,7 @@ const CONFIG = {
 			link: 'https://calendar.protonmail.com/',
 		},
 		{
-			id: '4',
+			id: '5',
 			name: 'ANILIST',
 			icon: 'heart',
 			link: 'https://anilist.co',
@@ -76,10 +76,10 @@ const CONFIG = {
 			link: 'http://teddit.namazso.eu/import_prefs/UYP3TSHMPQ',
 		},
 		{
-			id: '5',
-			name: 'TODO',
-			icon: 'check-square',
-			link: 'https://todoist.com',
+			id: '4',
+			name: 'FSR',
+			icon: 'film',
+			link: 'https://filmschoolrejects.com/',
 		},
 		{
 			id: '6',
