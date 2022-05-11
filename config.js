@@ -78,7 +78,7 @@ const CONFIG = {
 		{
 			id: '5',
 			name: 'TODO',
-			icon: 'square-check',
+			icon: 'check-square',
 			link: 'https://todoist.com',
 		},
 		{
