@@ -11,40 +11,40 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'ALEX',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'MORNING',
+	greetingAfternoon: 'GOOD AFTERNOON',
+	greetingEvening: 'GOOD EVENING',
+	greetingNight: 'GO TO BED',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '', // Write here your API Key
+	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '359.273750',
+	defaultLongitude: '15.207540',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
-	changeThemeByOS: true,
+	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
-	changeThemeByHour: false,
-	hourDarkThemeActive: '18:30',
-	hourDarkThemeInactive: '07:00',
+	changeThemeByHour: true,
+	hourDarkThemeActive: '00:00',
+	hourDarkThemeInactive: '00:00',
 
 	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
 	// ├┴┐│ │ │  │ │ ││││└─┐
@@ -53,78 +53,78 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
-		},
-		{
-			id: '2',
-			name: 'Mail',
+			name: 'MAIL',
 			icon: 'mail',
 			link: 'https://mail.protonmail.com/',
 		},
 		{
+			id: '2',
+			name: 'CALENDAR',
+			icon: 'calendar',
+			link: 'https://calendar.protonmail.com/',
+		},
+		{
 			id: '3',
-			name: 'Todoist',
+			name: 'TODO',
 			icon: 'trello',
 			link: 'https://todoist.com',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
+			name: 'REDDIT',
 			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			link: 'http://teddit.namazso.eu/import_prefs/UYP3TSHMPQ',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'ANILIST',
+			icon: 'heart',
+			link: 'https://anilist.co',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'ANILIST',
+			icon: 'glasses',
+			link: 'https://www.hckrnws.com/',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			name: 'GIT',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'FSR',
+			icon: 'film',
+			link: 'https://filmschoolrejects.com/',
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'ENDEAVOUR',
+			icon: 'rocket',
+			link: 'https://endeavouros.com/forum',
 		},
 		{
 			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			name: 'MB',
+			icon: 'server',
+			link: 'http://192.168.1.253:81',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'FIN',
+			icon: 'film',
+			link: 'http://192.168.1.253:8096',
 		},
 		{
 			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'DL',
+			icon: 'download',
+			link: 'http://192.168.1.253:9091/transmission/web/',
 		},
 	],
 
