@@ -117,7 +117,7 @@ const CONFIG = {
 		{
 			id: '5',
 			name: 'FIN',
-			icon: 'film',
+			icon: 'play-circle',
 			link: 'http://192.168.1.253:8096',
 		},
 		{
