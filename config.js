@@ -106,7 +106,7 @@ const CONFIG = {
 			id: '3',
 			name: 'ENDEAVOUR',
 			icon: 'rocket',
-			link: 'https://endeavouros.com/forum',
+			link: 'https://forum.endeavouros.com/',
 		},
 		{
 			id: '1',
