@@ -73,7 +73,7 @@ const CONFIG = {
 			id: '3',
 			name: 'REDDIT',
 			icon: 'glasses',
-			link: 'http://teddit.namazso.eu/import_prefs/UYP3TSHMPQ',
+			link: 'https://reddit.artemislena.eu/settings/restore/?theme=black&front_page=default&layout=clean&wide=on&comment_sort=confidence&show_nsfw=on&use_hls=on&hide_hls_notification=off&subscriptions=anime%2BAzurLane%2BAzurLewd%2Bflicks%2Bformula1%2Bgachagaming%2BJuve%2Bmovies%2BMovieSuggestions%2Bsoccer%2Bsummonerschool%2Btelevisionsuggestions%2BTrueFilm%2Bunixporn%2Bvoidlinux&filters=',
 		},
 		{
 			id: '4',
