@@ -91,16 +91,16 @@ const CONFIG = {
 
 	secondButtonsContainer: [
 		{
-			id: '1',
+			id: '4',
 			name: 'GIT',
 			icon: 'github',
 			link: 'https://github.com/',
 		},
 		{
-			id: '2',
-			name: 'FSR',
-			icon: 'film',
-			link: 'https://filmschoolrejects.com/',
+			id: '5',
+			name: 'DOCKER',
+			icon: 'package',
+			link: 'http://192.168.1.253:9000/',
 		},
 		{
 			id: '3',
@@ -109,7 +109,7 @@ const CONFIG = {
 			link: 'https://endeavouros.com/forum',
 		},
 		{
-			id: '4',
+			id: '1',
 			name: 'MB',
 			icon: 'server',
 			link: 'http://192.168.1.253:81',
@@ -121,7 +121,7 @@ const CONFIG = {
 			link: 'http://192.168.1.253:8096',
 		},
 		{
-			id: '6',
+			id: '2',
 			name: 'DL',
 			icon: 'download',
 			link: 'http://192.168.1.253:9091/transmission/web/',
