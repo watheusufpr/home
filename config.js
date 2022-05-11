@@ -83,7 +83,7 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'ANILIST',
+			name: 'HN',
 			icon: 'glasses',
 			link: 'https://www.hckrnws.com/',
 		},
