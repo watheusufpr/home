@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'TODO',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'ANILIST',
+			icon: 'heart',
+			link: 'https://anilist.co',
 		},
 		{
 			id: '4',
@@ -77,9 +77,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'ANILIST',
-			icon: 'heart',
-			link: 'https://anilist.co',
+			name: 'TODO',
+			icon: 'square-check',
+			link: 'https://todoist.com',
 		},
 		{
 			id: '6',
