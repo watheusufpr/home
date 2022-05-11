@@ -64,15 +64,15 @@ const CONFIG = {
 			link: 'https://calendar.protonmail.com/',
 		},
 		{
-			id: '3',
+			id: '4',
 			name: 'ANILIST',
 			icon: 'heart',
 			link: 'https://anilist.co',
 		},
 		{
-			id: '4',
+			id: '3',
 			name: 'REDDIT',
-			icon: 'calendar',
+			icon: 'glasses',
 			link: 'http://teddit.namazso.eu/import_prefs/UYP3TSHMPQ',
 		},
 		{
