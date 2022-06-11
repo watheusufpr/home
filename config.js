@@ -11,29 +11,29 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: '',
-	imageBackground: false,
+	name: 'Matheus',
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'MORNING',
-	greetingAfternoon: 'GOOD AFTERNOON',
-	greetingEvening: 'GOOD EVENING',
-	greetingNight: 'GO TO BED',
+	greetingMorning: 'Good morning!',
+	greetingAfternoon: 'Good afternoon,',
+	greetingEvening: 'Good evening,',
+	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: '', // Write here your API Key
-	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '3e4f2269563af37cf03b09b6413a743f', // Write here your API Key
+	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '359.273750',
-	defaultLongitude: '15.207540',
+	weatherLatitude: '-25.480877',
+	weatherLongitude: '-49.304424',
 
 	// Autochange
 	autoChangeTheme: false,
@@ -55,37 +55,37 @@ const CONFIG = {
 			id: '1',
 			name: 'MAIL',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '2',
 			name: 'CALENDAR',
-			icon: 'calendar',
-			link: 'https://calendar.protonmail.com/',
+			icon: 'calendar-days',
+			link: 'https://calendar.google.com/',
 		},
 		{
 			id: '5',
-			name: 'ANILIST',
-			icon: 'heart',
-			link: 'https://anilist.co',
+			name: 'NOTION',
+			icon: 'backpack',
+			link: 'https://www.notion.so/',
 		},
 		{
 			id: '3',
 			name: 'REDDIT',
-			icon: 'glasses',
-			link: 'https://reddit.artemislena.eu/settings/restore/?theme=black&front_page=default&layout=clean&wide=on&comment_sort=confidence&show_nsfw=on&use_hls=on&hide_hls_notification=off&subscriptions=anime%2BAzurLane%2BAzurLewd%2Bflicks%2Bformula1%2Bgachagaming%2BJuve%2Bmovies%2BMovieSuggestions%2Bsoccer%2Bsummonerschool%2Btelevisionsuggestions%2BTrueFilm%2Bunixporn%2Bvoidlinux&filters=',
+			icon: 'layout',
+			link: 'https://www.reddit.com/',
 		},
 		{
 			id: '4',
-			name: 'FSR',
-			icon: 'film',
-			link: 'https://filmschoolrejects.com/',
+			name: 'YOUTUBE',
+			icon: 'youtube',
+			link: 'https://youtube.com/',
 		},
 		{
 			id: '6',
-			name: 'HN',
-			icon: 'glasses',
-			link: 'https://www.hckrnws.com/',
+			name: 'GIT',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 	],
 
@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Lofi hip hop',
+					link: 'https://www.youtube.com/c/steezyasfvck/videos',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Calm',
+					link: 'https://www.youtube.com/c/nobodyplaylists/videos',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Jazz',
+					link: 'https://www.youtube.com/c/jazziseverywhere/videos',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'My Playlist',
+					link: 'https://www.youtube.com/playlist?list=PLA-E7cmrswUmxDUwWuz8rV5UT5wPrcCD4',
 				},
 			],
 		},
@@ -161,16 +161,16 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Twitter',
+					link: 'https://www.twitter.com/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Whatsapp',
+					link: 'https://web.whatsapp.com/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'LinkedIn',
+					link: 'https://www.linkedin.com/',
 				},
 				{
 					name: 'Slack',
